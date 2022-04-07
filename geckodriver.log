@@ -1,0 +1,22 @@
+1649095922628	geckodriver	INFO	Listening on 127.0.0.1:64696
+1649095925700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64697" "-no-remote" "-profile" "C:\\Users\\dhima\\AppData\\Local\\Temp\\rust_mozprofileAMXvsh"
+1649095926602	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dhima\\AppData\\Local\\Temp\\rust_mozprofileAMXvsh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64697/devtools/browser/ad796c47-619c-48df-af07-8b0a6980f2ce
+1649095928921	Marionette	INFO	Listening on port 64703
+1649095928995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649095931030	Marionette	INFO	Stopped listening on port 64703
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1649095931753	geckodriver	INFO	Listening on 127.0.0.1:64746
+1649095934835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64747" "-no-remote" "-profile" "C:\\Users\\dhima\\AppData\\Local\\Temp\\rust_mozprofile8fWRFa"
+1649095935162	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dhima\\AppData\\Local\\Temp\\rust_mozprofile8fWRFa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64747/devtools/browser/c7146dc8-ce06-493e-b5c3-4ffd6a8c1314
+1649095937011	Marionette	INFO	Listening on port 64752
+1649095937505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1649095942140	Marionette	INFO	Stopped listening on port 64752
